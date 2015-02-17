@@ -137,4 +137,9 @@ micro: all
 cub: OPT_DEFS += -DKEYMAP_CUB
 cub: all
 
+guni_simple: OPT_DEFS += -DKEYMAP_GUNI_SIMPLE
+guni_simple: all
+
+guni_experimental:  OPT_DEFS += -DKEYMAP_GUNI_EXPERIMENTAL
+guni_experimental: all
 
